@@ -19,11 +19,18 @@ Ex:
 #include <stdlib.h>
 #include <math.h>
 
-int main(int argc, char *argv[]) {
-	//testing variable, applying it to your algorithm for auto-evaluating
-	int height = atoi(argv[1]);
-	int border = atoi(argv[2]);
-	//Your codes here
-	
-	return 0;
+int main ()
+{
+int n,i,h;
+printf("nhap chieu cao tam giac va do day");
+scanf("%d","%d",&n,&h);
+for(i=1;i<=n;i++)
+{
+for(h;h<=n-i;h++)
+printf(" ");
+if(h;h<=n*i-1;h++)
+else printf("*");
+printf("\n");
+}
+getch();
 }
